@@ -407,10 +407,23 @@ form.pad {
     max-height: 100vh;
 }
 
-.login {
+.popup {
     margin: 50% 0;
+}
+
+.col-12 {
+    margin: 20vh 0;
+}
+
+.register {
+    max-width: unset;
+}
+
+.login {
     background-color: #303030ec;
     color: white;
+    min-height: 60vh;
+    max-height: 60vh;
 }
 
 .login-btn {
@@ -458,14 +471,14 @@ h2 {
     --input-padding-x: 1.5rem;
     --input-padding-y: 0.75rem;
   }
-  
-  .login,
+
   .image {
-    min-height: 100vh;
+    height: 100vh;
   }
   
   .bg-image {
     position: absolute;
+    height: 100vh;
     width: 100%;
     z-index: 0;
   }
@@ -542,7 +555,7 @@ h2 {
     color: #777;
   }
 
-  .custom-control-label {
-    color: black;
-  }
-  
+.white {
+    padding: 20px;
+    color: white;
+}
