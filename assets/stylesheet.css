@@ -424,6 +424,10 @@ form.pad {
     position: fixed;
 }
 
+.py-5 {
+    padding-bottom: 4rem!important;
+}
+
 .modal-content {
     margin: 25vh 0;
     color: white;

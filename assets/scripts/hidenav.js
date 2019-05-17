@@ -9,3 +9,4 @@ var navBar = document.getElementById('navbar');
     }
     prevScrollpos = currentScrollPos;
 }
+
