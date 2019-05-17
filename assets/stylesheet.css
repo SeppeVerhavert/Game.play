@@ -5,6 +5,25 @@
     box-sizing: border-box;
 }
 
+
+.newbie-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.standard-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.advanced-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (max-width: 1400px) {
     [class*=subcontainer-] {
         height: 300px;
