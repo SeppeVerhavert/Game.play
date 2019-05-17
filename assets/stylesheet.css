@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .container-content {
@@ -19,6 +20,7 @@
 
 .container-content-2 {
     background-color: #999999d2;
+    padding: 0;
 }
 
 [class*=subcontainer-] {
@@ -57,6 +59,7 @@
     -webkit-clip-path: polygon(0% 0%, 50% 50%, 100% 0%);
     clip-path: polygon(0% 0%, 50% 50%, 100% 0%);
     height: 200%;
+    overflow: hidden;
     margin-top: 0px;
 }
 
@@ -122,7 +125,7 @@ html {
 }
 
 main {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .mx-auto {
@@ -317,7 +320,7 @@ footer.container p {
 }
 
 .screen {
-    height: 100vh;   
+    height: 100%;   
 }
 
 .preview .group {
@@ -402,7 +405,7 @@ h1.title {
 }
 
 form.pad {
-    padding: 0 15px 0 0;
+    padding: 0 10px 0 0;
 }
 
 .subscript {
@@ -410,8 +413,8 @@ form.pad {
 }
 
 .modal-content {
-    opacity: 1;
-    background-color: #303030e7;
+    margin: 20vh 0;
+    background-color: #303030f5;
     color: white;
 }
 
@@ -437,6 +440,7 @@ form.pad {
 }
 
 .login {
+    height: 60vh;
     background-color: #303030fa;
     color: white;
 }
