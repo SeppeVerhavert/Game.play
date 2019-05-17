@@ -491,9 +491,10 @@ h2 {
   }
   
   .bg-image {
-    position: absolute;
-    height: 100vh;
+    height: 95%;
     width: 100%;
+    position: absolute;
+    object-fit: cover;
     z-index: 0;
   }
   
