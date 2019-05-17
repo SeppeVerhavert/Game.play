@@ -1,10 +1,21 @@
+html {
+    scroll-behavior: smooth;
+    
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
 .container-figure {
     background-image: url("images/Achtergrond.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .container-content {
@@ -98,17 +109,14 @@
     background-color: #303030;
 }
 
-body {
-    margin: 0;
-}
+
+
 
 .News {
     padding: 0 0 30px 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 .carousel-item {
     height: 100vh;
@@ -122,10 +130,6 @@ html {
 
 .wrppr {
     margin: 0px 10px 10px 10px;
-}
-
-main {
-    overflow-x: hidden;
 }
 
 .mx-auto {
@@ -214,7 +218,7 @@ video {
     margin: 0;
     padding: 0;
     height: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 
     transition: height 500ms ease-in-out;
 
@@ -320,7 +324,7 @@ footer.container p {
 }
 
 .screen {
-    height: 100%;   
+    height: 100vh;   
 }
 
 .preview .group {
@@ -412,8 +416,12 @@ form.pad {
     padding-top: 11vh;
 }
 
+.modal {
+    position: fixed;
+}
+
 .modal-content {
-    margin: 20vh 0;
+    margin: 25vh 0;
     background-color: #303030f5;
     color: white;
 }
@@ -440,7 +448,6 @@ form.pad {
 }
 
 .login {
-    height: 60vh;
     background-color: #303030fa;
     color: white;
 }
@@ -493,7 +500,14 @@ h2 {
 
 .bg-image {
     background-image: url("images/gamewall.png");
+    overflow-x: hidden;
+    background-attachment: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    
+    height: 100vh;
+    width: 100vw;
 }
   
   .login-heading {
