@@ -552,7 +552,19 @@ h2 {
     color: #777;
   }
 
-.white {
+    .white {
     padding: 20px;
     color: white;
-}
+  }
+
+    .bronze {
+    color: rgb(209, 141, 72);
+  }
+
+    .silver {
+    color: rgb(223, 219, 219);
+  }
+
+    .gold {
+    color: rgb(255,215,0);
+  }
