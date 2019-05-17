@@ -15,8 +15,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 <<<<<<< HEAD
+<<<<<<< HEAD
     overflow-x: hidden;
     overflow-y: hidden;
+=======
+>>>>>>> parent of bd9aca3... bug fixes
 =======
 >>>>>>> parent of bd9aca3... bug fixes
 }
@@ -430,8 +433,13 @@ form.pad {
 
 .modal-content {
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin: 25vh 0;
     background-color: #303030f5;
+=======
+    opacity: 1;
+    background-color: #303030e7;
+>>>>>>> parent of bd9aca3... bug fixes
 =======
     opacity: 1;
     background-color: #303030e7;
