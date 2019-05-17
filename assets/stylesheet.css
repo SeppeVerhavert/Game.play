@@ -14,17 +14,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     overflow-x: hidden;
     overflow-y: hidden;
-=======
->>>>>>> parent of bd9aca3... bug fixes
-=======
->>>>>>> parent of bd9aca3... bug fixes
-=======
->>>>>>> parent of bd9aca3... bug fixes
 }
 
 .container-content {
@@ -139,13 +131,10 @@ body {
     margin: 0px 10px 10px 10px;
 }
 
-<<<<<<< HEAD
-=======
 main {
     overflow: hidden;
 }
 
->>>>>>> parent of bd9aca3... bug fixes
 .mx-auto {
     color: white;
 }
@@ -435,24 +424,9 @@ form.pad {
 }
 
 .modal-content {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin: 25vh 0;
-    background-color: #303030f5;
-=======
-    opacity: 1;
-    background-color: #303030e7;
->>>>>>> parent of bd9aca3... bug fixes
-=======
-    opacity: 1;
-    background-color: #303030e7;
->>>>>>> parent of bd9aca3... bug fixes
-=======
-    opacity: 1;
-    background-color: #303030e7;
->>>>>>> parent of bd9aca3... bug fixes
     color: white;
+    background-color: #303030e7;
 }
 
 .modal-footer {
@@ -522,10 +496,13 @@ h2 {
     box-shadow: 0 0 10px 0.5px gray;
 }
 
+
+
 :root {
     --input-padding-x: 1.5rem;
     --input-padding-y: 0.75rem;
   }
+
 
 .bg-image {
     background-image: url("images/gamewall.png");
@@ -549,16 +526,16 @@ h2 {
     padding: 0.75rem 1rem;
     border-radius: 2rem;
   }
-  
+
   .form-label-group {
     position: relative;
     margin-bottom: 1rem;
+    height: max-content;
   }
   
   .form-label-group>input,
   .form-label-group>label {
     padding: var(--input-padding-y) var(--input-padding-x);
-    height: auto;
     border-radius: 2rem;
   }
   
