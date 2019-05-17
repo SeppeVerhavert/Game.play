@@ -14,9 +14,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     overflow-x: hidden;
-    overflow-y: hidden;
+    width: 100vw;
+    overflow-y: scroll;
 }
 
 .container-content {
@@ -131,13 +131,13 @@ body {
     margin: 0px 10px 10px 10px;
 }
 
+
 main {
     overflow: hidden;
 }
 
 .mx-auto {
     color: white;
-}
 }
 
 h1 {
@@ -427,7 +427,7 @@ form.pad {
 .modal-content {
     margin: 25vh 0;
     color: white;
-    background-color: #303030e7;
+    background-color: #303030f8;
 }
 
 .modal-footer {
@@ -497,13 +497,10 @@ h2 {
     box-shadow: 0 0 10px 0.5px gray;
 }
 
-
-
 :root {
     --input-padding-x: 1.5rem;
     --input-padding-y: 0.75rem;
   }
-
 
 .bg-image {
     background-image: url("images/gamewall.png");
@@ -527,16 +524,16 @@ h2 {
     padding: 0.75rem 1rem;
     border-radius: 2rem;
   }
-
+  
   .form-label-group {
     position: relative;
     margin-bottom: 1rem;
-    height: max-content;
   }
   
   .form-label-group>input,
   .form-label-group>label {
     padding: var(--input-padding-y) var(--input-padding-x);
+    height: auto;
     border-radius: 2rem;
   }
   
