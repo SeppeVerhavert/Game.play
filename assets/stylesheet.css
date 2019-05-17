@@ -5,6 +5,25 @@
     box-sizing: border-box;
 }
 
+
+.newbie-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.standard-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.advanced-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (max-width: 1400px) {
     [class*=subcontainer-] {
         height: 300px;
@@ -46,6 +65,7 @@
 
 .col-md-6 {
     padding: 20px;
+    background-color: #303030;
 }
 
 body {
@@ -299,7 +319,7 @@ footer.container p {
 }
 
 .screen {
-    min-height: 100vh;   
+    height: 100vh;   
 }
 
 .preview .group {
@@ -419,8 +439,6 @@ form.pad {
 .login {
     background-color: #303030fa;
     color: white;
-    min-height: 60vh;
-    max-height: 60vh;
 }
 
 .login-btn {
@@ -476,6 +494,7 @@ h2 {
   .bg-image {
     position: absolute;
     width: 100%;
+    height: auto;
     z-index: 0;
   }
   
