@@ -96,8 +96,8 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button onclick="alert('Wrong email and/or password!')" class="btn btn-success btn-lg btn-block login-btn">Login</button>
-                    <a href="aboutus.html"><button class="btn btn-primary btn-lg btn-block">Register</button></a>
+                    <button onclick="alert('Wrong email and/or password!')" class="btn btn-danger btn-lg btn-block login-btn">Login</button>
+                    <a href="#Register"><button class="btn btn-secondary btn-lg btn-block">Register</button></a>
                 </div>
                 </div>
             </div>
@@ -107,24 +107,11 @@
 
         <div class="fixed-top" id="navbar">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
+            
             <a class="navbar-brand" href="#">
                 <img alt="logo" title="logoheader" src="assets/images/gameplay-logo-trans.png" width="160" height="40" class="d-inline-block align-top">
             </a>
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#Libary">Libary<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#News">News</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Sub">Subscriptions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#About">About Us</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
                 <li class="nav-item bar">
                     <a class="nav-link" href="#shooter">
                         <img alt="Shooter icon" title="Shooter" height="50" width="50" src="assets/images/Icons/shooter.png">
@@ -146,10 +133,22 @@
                         </a>
                 </li>
             </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Libary">Libary<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#News">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Sub">Subscriptions</a>
+                </li>
+            </ul>
             <form class="form-inline order-0 pad">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
             </form>
+
             <a href="" class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#modalLoginForm">Login</a>
         </nav>
         </div>
@@ -176,7 +175,7 @@
                     </div>
                     </div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->
-                    <div  title="Prijzen" class="carousel-item" style="background-image: url('assets/images/subview.jpg')">
+                    <div  title="Prijzen" class="carousel-item" style="background-image: url('assets/images/banner2.jpg')">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#Sub"><button type="button" class="btn btn-primary btn-sm slide-btn">Go to subscriptions</button></a>
                     </div>
@@ -204,7 +203,6 @@
                 </a>
             </div>
         </div>
-      </div>
 
         <!-- CLIPART -->
         <div class="subcontainer-2">
@@ -841,7 +839,6 @@
                 </div>
 
                 <div class="mx-auto">
-                    <p class="float-right pad"><a href="#">Back to top</a></p>
                 </div>
             </div>
         </div>
@@ -856,36 +853,39 @@
 
         <div class="container-content-2 News" id="News">
             <div class="wrpper">
-            <div class="container">
-                <div class="mx-auto">
-                    <h1 id="Newstitel">News</h1>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                <div class="col-md-6 order-md-2">
-                    <h2  id="Outer" class="featurette-heading">Outer Wilds will be epic</h2>
-                    <h4 class="text-muted"></h4>
-                    <p class="lead">
-                            <span style="color:#c91b1c;font-weight:bold">Space exploration game</span> Outer Wilds will launch on the Epic Games Store and not Steam, developer Mobius Digital has confirmed.
-                            <br><br>
-                            We knew that the game would be on the Epic Games Store, but it wasn't clear whether its Steam release would be simultaneous. Now we know it will be <span style="color:#c91b1c;font-weight:bold">on Epic's store</span> first—Mobius Digital said that "additional platforms [are] coming later", although it didn't specify a time frame for the exclusivity...
-                            <br><br><br><br>
-                    </p>
-                    <div class="text-center">
-                        <button type="button" class="font-italic btn btn-dark btn-lg">Read more</button>
+                <div class="container">
+                    <div class="mx-auto">
+                        <h1 id="Newstitel">News</h1>
                     </div>
-                </div>
-                <div class="col-md-6 order-md-1">
-                    <img alt="Game" title="Outer Wilds will be epic" src="https://cdn.mos.cms.futurecdn.net/CJwKVL5PtAEPYrCP9ix2mN-650-80.jpg" width="100%" height="100%" class="rounded" alt="...">
-                </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette">
+                        <div class="col-md-6 blackbackground order-md-2">
+                            <h2  id="Outer" class="featurette-heading">Outer Wilds will be epic</h2>
+                            <h4 class="text-muted">T.B.A.</h4>
+                            <p class="lead">
+                                <span style="color:#c91b1c;font-weight:bold">Space exploration game</span>
+                                Outer Wilds will launch on the Epic Games Store and not Steam, developer Mobius Digital has confirmed.
+                                We knew that the game would be on the Epic Games Store, but it wasn't clear whether its Steam release would be simultaneous. Now we know it will be <span style="color:#c91b1c;font-weight:bold">on Epic's store</span> first—Mobius Digital said that "additional platforms [are] coming later", although it didn't specify a time frame for the exclusivity...
+                            </p>
+                    
+                            <div class="text-center">
+                                <button type="button" class="font-italic btn btn-dark btn-lg">Read more</button>
+                            </div>
+
+                        </div>
+                
+                    <div class="col-md-6 order-md-1">
+                        <img alt="Game" title="Outer Wilds will be epic"src="https://cdn.mos.cms.futurecdn.net/CJwKVL5PtAEPYrCP9ix2mN-650-80.jpg" width="100%" height="100%" class="rounded" alt="...">
+                    </div>
+                    
                 </div>
 
                 <hr class="featurette-divider">
 
                 <div class="row featurette">
-                    <div class="col-md-7">
+                    <div class="blackbackground col-md-7">
                         <h2 class="featurette-heading">Rage 2</h2>
                         <h4 class="text-muted">15 may 2019</h4>
                         <p class="lead">Dive headfirst into<span style="color:#c91b1c;font-weight:bold"> a dystopian world devoid of society</span>, law, and order. RAGE 2 brings together two studio powerhouses–Avalanche Studios, masters of open world insanity, and id Software, <span style="color:#c91b1c;font-weight:bold">creators of the first-person shooter</span> –to deliver a carnival of carnage where you can <span style="color:#c91b1c;font-weight:bold">go anywhere, shoot anything, and explode everything.</span>
@@ -903,7 +903,7 @@
                 <hr class="featurette-divider">
 
                 <div class="row featurette">
-                <div class="col-md-6 order-md-2">
+                <div class="col-md-6 blackbackground order-md-2">
                     <h2 class="featurette-heading">Team Sonic Racing</h2>
                     <h4 class="text-muted">21 may 2019</h4>
                     <p class="lead">Sonic & All-Stars Racing Transformed, like Sonic & Sega All-Stars Racing before it, <span style="color:#c91b1c;font-weight:bold">contained a number of characters</span> from outside the Sonic universe. Wreck-It Ralph, Football Manager Man, and others all <span style="color:#c91b1c;font-weight:bold">battled for racing supremacy</span> with the titular blue hedgehog and his friends, but the next game in the series, Team Sonic Racing, eschews these supplementary characters...
@@ -921,7 +921,7 @@
                 <hr class="featurette-divider">
 
                 <div class="row featurette">
-                <div class="col-md-7">
+                <div class="col-md-7 blackbackground">
                     <h2 class="featurette-heading">Age of Wonders: Planetfall</h2>
                     <h4 class="text-muted">6 August 2019</h4>
                     <p class="lead">Emerge from <span style="color:#c91b1c;font-weight:bold">the cosmic dark age of a fallen galactic empire</span> to build a new future for your people. Age of Wonders: <span style="color:#c91b1c;font-weight:bold">Planetfall is the new strategy game</span> from Triumph Studios, creators of the critically acclaimed Age of Wonders series, bringing all the <span style="color:#c91b1c;font-weight:bold">exciting tactical</span> turn-based combat and in-depth empire building of its predecessors to space in an all-new, sci-fi setting.
@@ -942,7 +942,7 @@
 
 
                 <div class="row featurette">
-                <div class="col-md-7 order-md-2">
+                <div class="col-md-7 blackbackground order-md-2">
                     <h2 class="featurette-heading">Star Wars Jedi: Fallen Order</h2>
                     <h4 class="text-muted">Autumn 2019</h4>
                     <p class="lead">
@@ -963,7 +963,7 @@
                 <hr class="featurette-divider" id="Marvel">
 
                 <div class="row featurette">
-                <div class="col-md-7">
+                <div class="col-md-7 blackbackground">
                     <h2 class="featurette-heading">Marvel Ultimate Alliance 3: The Black Order</h2>
                     <h4 class="text-muted">Autumn 2019</h4>
                     <p class="lead">
@@ -985,13 +985,12 @@
 
 
             </div>
-            <p class="float-right pad"><a href="#">Back to top</a></p>
             </div>
         </div>
 
         <!-- CLIPART -->
         <div class="subcontainer-2">
-            <div class="driehoek-3">
+            <div class="driehoek-2">
 
             </div>
         </div>
@@ -1009,6 +1008,8 @@
                         <div class="col-lg-4">
                             <div class="card mb-5 mb-lg-0">
                             <div class="card-body">
+                                <img class="newbie-img" src="https://img.icons8.com/windows/100/000000/coins.png" alt="Newbie">
+                                <br>
                                 <h5 class="card-title text-muted text-uppercase text-center bronze">NEWBIE</h5>
                                 <h6 class="card-price text-center">€7.99</h6>
                                 <hr>
@@ -1019,7 +1020,6 @@
                                     <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Game.play Sticker</li>
 
                                     </ul>
-                                    <br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br>
                                     <a href="" class="btn btn-block btn-primary text-uppercase" data-toggle="modal" data-target="#modalLoginForm">BUY</a>
                             </div>
                             </div>
@@ -1029,6 +1029,8 @@
                         <div class="col-lg-4">
                             <div class="card mb-5 mb-lg-0">
                             <div class="card-body">
+                                <img class="standard-img" src="https://img.icons8.com/metro/100/000000/stack-of-money.png" alt="Standard">
+                                <br>
                                 <h5 class="card-title text-muted text-uppercase text-center silver">STANDARD</h5>
                                 <h6 class="card-price text-center">€14.99</h6>
                                 <hr>
@@ -1039,7 +1041,6 @@
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Game.play Button</li>
 
                                 </ul>
-                                <br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br>
                                 <a href="" class="btn btn-block btn-primary text-uppercase" data-toggle="modal" data-target="#modalLoginForm">BUY</a>
                             </div>
                             </div>
@@ -1049,6 +1050,8 @@
                         <div class="col-lg-4">
                             <div class="card">
                             <div class="card-body">
+                                <img class="advanced-img" src="https://img.icons8.com/ios/100/000000/treasure-chest-filled.png" alt="Advanced"> 
+                                <br>  
                                 <h5 class="card-title text-muted text-uppercase text-center gold">ADVANCED</h5>
                                 <h6 class="card-price text-center">€99.99</h6>
                                 <hr>
@@ -1059,15 +1062,13 @@
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Game.Play T-shirt</li>
 
                                 </ul>
-                                <br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br>
                                 <a href="" class="btn btn-block btn-primary text-uppercase" data-toggle="modal" data-target="#modalLoginForm">BUY</a>
                             </div>
                             </div>
                         </div>
                         </div>
                     </div>
-                    <p class="float-right pad subscript"><a href="#">Back to top</a></p>
-                    </section>
+                </section>
             </div>
         </div>
 
@@ -1080,66 +1081,58 @@
 
 
         <!-- ABOUT US -->
-        <div class="container-content-2" id="About">
-
-            <div class="container-fluid">
-                <div class="row no-gutter">
-                    <img alt="gameplay" title="Gamewall" class="bg-image" src="assets/images/gamewall.png">
+        <div class="container-content-2" id="Register" >
+            <div class="row no-gutter bg-image">
                     <div class="col-12">
-                            <div class="login d-flex align-items-center py-5">
+                        <div class="login d-flex align-items-center py-5">
 
-                                <div class="container register">
-                                    <div class="row">
-                                        <div class="col-md-9 col-lg-8 mx-auto">
-                                            <h3 class="login-heading mb-4">Welcome to the team!</h3>
-                                            <form>
-                                            <div class="form-label-group">
-                                                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
-                                                <label for="inputEmail">Email address</label>
-                                            </div>
-
-                                            <div class="form-label-group">
-                                                <input type="username" id="inputUsername" class="form-control" placeholder="Username" required>
-                                                <label for="inputUsername">Username</label>
-                                            </div>
-
-                                            <div class="form-label-group">
-                                                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                                                <label for="inputPassword">Password</label>
-                                            </div>
-
-                                            <div class="form-label-group">
-                                                <input type="confirmation" id="inputConfirmation" class="form-control" placeholder="Password Confirmation" required>
-                                                <label for="inputConfirmation">Password confirmation</label>
-                                            </div>
-
-                                            <div class="custom-control custom-checkbox mb-3">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                                <label class="custom-control-label" for="customCheck1">Remember password</label>
-                                            </div>
-
-                                            <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
-                                            <div class="text-center">
-                                                <a class="small" href="#">Forgot password?</a></div>
-                                            </form>
+                            <div class="container register">
+                                <div class="row">
+                                    <div class="col-md-9 col-lg-8 mx-auto">
+                                        <h3 class="login-heading mb-4">Welcome to the team!</h3>
+                                        <form>
+                                        <div class="form-label-group">
+                                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+                                            <label for="inputEmail">Email address</label>
                                         </div>
+
+                                        <div class="form-label-group">
+                                            <input type="username" id="inputUsername" class="form-control" placeholder="Username" required>
+                                            <label for="inputUsername">Username</label>
+                                        </div>
+
+                                        <div class="form-label-group">
+                                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                                            <label for="inputPassword">Password</label>
+                                        </div>
+
+                                        <div class="form-label-group">
+                                            <input type="confirmation" id="inputConfirmation" class="form-control" placeholder="Password Confirmation" required>
+                                            <label for="inputConfirmation">Password confirmation</label>
+                                        </div>
+
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Remember password</label>
+                                        </div>
+
+                                        <button class="btn btn-lg btn-danger btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
+                                        <div class="text-center">
+                                            <a class="small red" href="#">Forgot password?</a></div>
+                                        </form>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
+            <!--    END ABOUT US    -->
             <div class="subcontainer-2">
                 <div class="driehoek-2">
 
                 </div>
             </div>
-
-                <!--    END ABOUT US    -->
-
             <footer class="container-content-1 white">
                 <p class="float-right">Tel: <a href="tel:0493068220">0493/06.82.20</a></p>
                 <p>Email: <a href="mailto:questions.gameplay@gmail.com">questions.gameplay@gmail.com</a></p>
@@ -1147,10 +1140,6 @@
                 <p>&copy; 2019 Game.play Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>
 
-
-
-
-        </div>
 
 
     </main>
