@@ -14,8 +14,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
     overflow-x: hidden;
     overflow-y: hidden;
+=======
+>>>>>>> parent of bd9aca3... bug fixes
 }
 
 .container-content {
@@ -31,7 +34,6 @@ body {
 
 .container-content-2 {
     background-color: #999999d2;
-    padding: 0;
 }
 
 [class*=subcontainer-] {
@@ -70,7 +72,6 @@ body {
     -webkit-clip-path: polygon(0% 0%, 50% 50%, 100% 0%);
     clip-path: polygon(0% 0%, 50% 50%, 100% 0%);
     height: 200%;
-    overflow: hidden;
     margin-top: 0px;
 }
 
@@ -132,6 +133,13 @@ body {
     margin: 0px 10px 10px 10px;
 }
 
+<<<<<<< HEAD
+=======
+main {
+    overflow: hidden;
+}
+
+>>>>>>> parent of bd9aca3... bug fixes
 .mx-auto {
     color: white;
 }
@@ -409,7 +417,7 @@ h1.title {
 }
 
 form.pad {
-    padding: 0 10px 0 0;
+    padding: 0 15px 0 0;
 }
 
 .subscript {
@@ -421,8 +429,13 @@ form.pad {
 }
 
 .modal-content {
+<<<<<<< HEAD
     margin: 25vh 0;
     background-color: #303030f5;
+=======
+    opacity: 1;
+    background-color: #303030e7;
+>>>>>>> parent of bd9aca3... bug fixes
     color: white;
 }
 
