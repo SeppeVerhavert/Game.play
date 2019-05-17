@@ -429,7 +429,7 @@ form.pad {
 }
 
 .modal-content {
-    margin: 25vh 0;
+    margin: 10vh 0;
     color: white;
     background-color: #303030f8;
 }
@@ -611,7 +611,7 @@ h2 {
   }
 
   .red {
-    color: #c91b1c;
+    color: #e92020;
   }
 
   .red:hover {
