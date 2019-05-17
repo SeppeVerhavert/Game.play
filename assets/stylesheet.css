@@ -497,7 +497,7 @@ h2 {
     font-family: 'Arimo', sans-serif;
 }
 
-.preview:hover, .card:hover {
+.card:hover {
     box-shadow: 0 0 10px 0.5px gray;
 }
 
