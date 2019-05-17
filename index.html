@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Seppe Verhavert,Merel Van Puymbroeck,Wietse Gielen,Nic Placklé"> 
+    <meta name="author" content="Seppe Verhavert,Merel Van Puymbroeck,Wietse Gielen,Nic Placklé">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Game.play | Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+
     <!-- BOOTSTRAP LINK -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  
+
     <!--Added scripts-->
     <script src="https://code.jquery.com/   jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/   Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/    popper.js/1.12.9/umd/popper.min.js"   integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/    ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"   crossorigin="anonymous"></script>
     <!--End added scripts-->
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  
+
     <!--Font Awesome link-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
@@ -29,8 +30,8 @@
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">  
-    
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
     <!--  Essential META Tags -->
     <meta property="og:title" content="Game.play">
     <meta property="og:description" content="Online gaming platform">
@@ -46,7 +47,7 @@
     <meta name="twitter:creator" content="@NPlackle">
     <meta name="twitter:title" content="Online gaming platform - Discover the hottest new games - Single and Multi-player">
     <meta name="twitter:image" content="https://github.com/SeppeVerhavert/Game.play/blob/master/assets/images/og_image%20twitter.jpg">
-    
+
     <!--  Non-Essential, But Recommended -->
     <meta property="og:site_name" content="Game.play">
 
@@ -61,19 +62,19 @@
     <meta name="keywords" content="game,online gaming,multi-player,gaam,gamee,steam,playstation,stream,library,heartbound">
 
     <!-- Description tag -->
-    <meta name="description" content="Online gaming platform">  
-    
+    <meta name="description" content="Online gaming platform">
+
     <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/stylesheet.css" type="text/css">
 </head>
-    
+
 <body>
     <header>
         <!-- LOGIN POPUP -->
         <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
-                <div class="modal-content login popup">
+                <div class="modal-content">
                 <div class="modal-header text-center">
                     <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -95,8 +96,8 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button onclick="alert('Wrong email and/or password!')" class="btn btn-danger btn-lg btn-block login-btn">Login</button>
-                    <a href="#Register"><button class="btn btn-secondary btn-lg btn-block">Register</button></a>
+                    <button onclick="alert('Wrong email and/or password!')" class="btn btn-success btn-lg btn-block login-btn">Login</button>
+                    <a href="aboutus.html"><button class="btn btn-primary btn-lg btn-block">Register</button></a>
                 </div>
                 </div>
             </div>
@@ -107,31 +108,9 @@
         <div class="fixed-top" id="navbar">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
             <a class="navbar-brand" href="#">
-                <img src="assets/images/gameplay-logo-trans.png" width="180" height="45" class="d-inline-block align-top" alt="">
+                <img alt="logo" title="logoheader"src="assets/images/gameplay-logo-trans.png" width="160" height="40" class="d-inline-block align-top" alt="">
             </a>
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item bar">
-                    <a class="nav-link" href="#shooter">
-                        <img height="50" width="50" src="assets/images/Icons/shooter.png">
-                        </a>
-                </li>
-                <li class="nav-item bar">
-                    <a class="nav-link" href="#rpg">
-                        <img height="50" width="50" src="assets/images/Icons/rpg.png">
-                        </a>
-                </li>
-                <li class="nav-item bar">
-                    <a class="nav-link" href="#action">
-                        <img height="50" width="50" src="assets/images/Icons/action.png">
-                        </a>
-                </li>
-                <li class="nav-item bar">
-                    <a class="nav-link" href="#racing">
-                        <img height="50" width="50" src="assets/images/Icons/racing.png">
-                        </a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#Libary">Libary<span class="sr-only">(current)</span></a>
                 </li>
@@ -140,6 +119,31 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#Sub">Subscriptions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About Us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item bar">
+                    <a class="nav-link" href="#shooter">
+                        <img alt="Shooter icon" title="Shooter" height="50" width="50" src="assets/images/Icons/shooter.png">
+                        </a>
+                </li>
+                <li class="nav-item bar">
+                    <a class="nav-link" href="#rpg">
+                        <img alt="RPG icon" title="RPG" height="50" width="50" src="assets/images/Icons/rpg.png">
+                        </a>
+                </li>
+                <li class="nav-item bar">
+                    <a class="nav-link" href="#action">
+                        <img alt="Action Icon" title="Action" height="50" width="50" src="assets/images/Icons/action.png">
+                        </a>
+                </li>
+                <li class="nav-item bar">
+                    <a class="nav-link" href="#racing">
+                        <img alt="Racing Icon" title="Racing" height="50" width="50" src="assets/images/Icons/racing.png">
+                        </a>
                 </li>
             </ul>
             <form class="form-inline order-0 pad">
@@ -152,7 +156,7 @@
     </header>
 
     <main>
-        
+
         <div class="container-figure">
 
         <!-- WELCOME SCREEN SLIDE -->
@@ -166,27 +170,27 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <!-- Slide One - Set the background image for this slide in the line below -->
-                    <div class="carousel-item active" style="background-image: url('assets/images/slidelib.jpg')">
+                    <div alt="Slide mockup" title="mockup" class="carousel-item active" style="background-image: url('assets/images/slidelib.jpg')">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#Libary"><button type="button" class="btn btn-danger btn-sm slide-btn">Go to libary</button></a>
                     </div>
                     </div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('assets/images/banner2.jpg')">
+                    <div alt="Slide prijzen" title="Prijzen" class="carousel-item" style="background-image: url('assets/images/banner2.jpg')">
                     <div class="carousel-caption d-none d-md-block">
-                        <a href="#Sub"><button type="button" class="btn btn-primary btn-sm slide-btn">Get your subscription today</button></a>
+                        <a href="#Sub"><button type="button" class="btn btn-primary btn-sm slide-btn">Go to subscriptions</button></a>
                     </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('assets/images/jedi.jpg')">
+                    <div alt="Slide Starwars" title="Starwars Jedi" class="carousel-item" style="background-image: url('assets/images/jedi.jpg')">
                     <div class="carousel-caption d-none d-md-block">
-                        <a href="#Jedi"><button type="button" class="btn btn-warning btn-sm slide-btn">Read article</button></a>
+                        <a href="#Jedi"><button type="button" class="btn btn-warning btn-sm slide-btn">Go to article</button></a>
                     </div>
                     </div>
                     <!-- FOUR -->
-                    <div class="carousel-item" style="background-image: url('assets/images/marvelview.jpg')">
+                    <div alt="Slide Marvel" title="Marvel" class="carousel-item" style="background-image: url('assets/images/marvelview.jpg')">
                     <div class="carousel-caption d-none d-md-block">
-                        <a href="#Marvel"><button type="button" class="btn btn-warning btn-sm slide-btn">Read article</button></a>
+                        <a href="#Marvel"><button type="button" class="btn btn-warning btn-sm slide-btn">Go to article</button></a>
                     </div>
                     </div>
                 </div>
@@ -207,38 +211,38 @@
 
             </div>
         </div>
-            
+
 
         <!-- LIBARY -->
         <div class="container-content">
             <div class="wrppr" id="Libary" >
                 <!-- FEATURED -->
-    
+
                 <div class="mx-auto" id="feat">
                     <h1>Featured</h1>
                 </div>
-    
-                <div class="row">  
-    
+
+                <div class="row">
+
                     <!-- PREVIEW -->
                     <div class="container lib">
                         <div class="row">
                             <div id="Rust" class="preview">
-                                
+
                                 <div class="col-5 box-1">
                                     <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
-                                        <img class="view" src="assets/images/rust.jpg" alt="">
+                                        <img alt="Game" title="Rust" class="view" src="assets/images/rust.jpg" alt="">
                                         <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                             <source src="assets/videos/rust.mp4" type="video/mp4" >
                                             Your browser does not support HTML5 video.
                                         </video>
-                                    </div>  
+                                    </div>
                                 </div>
-    
+
                                 <div class=" col-7 box-2">
                                     <h2>Rust<a href="" data-toggle="modal" data-target="#modalLoginForm"><button type="button" class="btn btn-danger">Play Game</button></a></h2>
                                     <a onclick="load('Rust')">
-                                        <img class="cross" height="50" width="50" src="http://getdrawings.com/free-icon/exit-button-icon-65.png">
+                                        <img alt="Icon x" title="Afsluiten" class="cross" height="50" width="50" src="http://getdrawings.com/free-icon/exit-button-icon-65.png">
                                     </a>
 
                                     <div class="btn-group col" role="group" aria-label="tags">
@@ -248,36 +252,36 @@
                                         <button type="button" class="btn btn-dark btn-sm">Open World</button>
                                         <button type="button" class="btn btn-dark btn-sm">First Person</button>
                                     </div>
-    
+
                                     <p>
                                         The objective of Rust is to survive in the wilderness using gathered or stolen materials. Players must successfully manage their hunger, thirst, and health, or risk dying. Despite the looming threat of bears and wolves, the primary menace is other players due to the game being solely multiplayer.
                                     </p>
-    
-                                </div> 
-    
+
+                                </div>
+
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="container lib">
                         <div class="row">
                             <div id="Mortal" class="preview">
-    
+
                                 <div class="col-5 box-1">
                                     <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
-                                        <img class="view" src="https://techraptor.net/wp-content/uploads/2019/02/mortal-kombat-11-boxart-logo-902x507.jpg" alt="">
+                                        <img alt="Game" title="Mortal Kombat" class="view" src="https://techraptor.net/wp-content/uploads/2019/02/mortal-kombat-11-boxart-logo-902x507.jpg" alt="">
                                         <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                             <source src="assets/videos/mortal.mp4" type="video/mp4" >
                                             Your browser does not support HTML5 video.
                                         </video>
-                                    </div>  
+                                    </div>
                                 </div>
-    
-    
+
+
                                 <div class="col-7 box-2">
                                     <h2>Mortal Kombat 11<a href="" data-toggle="modal" data-target="#modalLoginForm"><button type="button" class="btn btn-danger">Play Game</button></a></h2>
                                     <a onclick="load('Mortal')">
-                                        <img class="cross" height="50" width="50" src="http://getdrawings.com/free-icon/exit-button-icon-65.png">
+                                        <img alt="Icon x" title="Afsluiten" class="cross" height="50" width="50" src="http://getdrawings.com/free-icon/exit-button-icon-65.png">
                                     </a>
 
                                     <div class="btn-group col align-self-end" role="group" aria-label="tags">
@@ -287,40 +291,40 @@
                                         <button type="button" class="btn btn-dark btn-sm">2D Fighter</button>
                                         <button type="button" class="btn btn-dark btn-sm">Action</button>
                                     </div>
-    
-    
+
+
                                     <p>
-                                        Mortal Kombat 11 is a fighting video game developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment. Running on the Unreal Engine 3, it is the eleventh main installment in the Mortal Kombat series and a sequel to 2015's Mortal Kombat X. 
+                                        Mortal Kombat 11 is a fighting video game developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment. Running on the Unreal Engine 3, it is the eleventh main installment in the Mortal Kombat series and a sequel to 2015's Mortal Kombat X.
                                     </p>
-    
+
                                 </div>
-    
+
                             </div>
                         </div>
                     </div>
-    
-    
-    
+
+
+
                     <div class="container lib">
                         <div class="row">
                             <div id="Crew" class="preview">
-    
+
                                 <div class="col-5 box-1">
                                     <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
-                                        <img class="view" src="https://i.ytimg.com/vi/H5I05WKeaKA/maxresdefault.jpg" alt="">
+                                        <img alt="Auto game" title="The Crew 2" class="view" src="https://i.ytimg.com/vi/H5I05WKeaKA/maxresdefault.jpg" alt="">
                                         <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                             <source src="assets/videos/crew.mp4" type="video/mp4" >
                                             Your browser does not support HTML5 video.
                                         </video>
-                                    </div>  
                                     </div>
-    
+                                    </div>
+
                                 <div class="col-7 box-2">
                                     <h2>Crew 2<a href="" data-toggle="modal" data-target="#modalLoginForm"><button type="button" class="btn btn-danger">Play Game</button></a></h2>
                                     <a onclick="load('Crew')">
-                                        <img class="cross" height="50" width="50" src="http://getdrawings.com/free-icon/exit-button-icon-65.png">
+                                        <img alt="Icon x" title="Afsluiten" class="cross" height="50" width="50" src="http://getdrawings.com/free-icon/exit-button-icon-65.png">
                                     </a>
-                                    
+
                                     <div class="btn-group col align-self-end" role="group" aria-label="tags">
                                         <button type="button" class="btn btn-dark btn-sm">Racing</button>
                                         <button type="button" class="btn btn-dark btn-sm">Open World</button>
@@ -330,36 +334,36 @@
                                     </div>
 
                                     <p>
-                                        Similar to its predecessor, The Crew 2 is a racing game. In the game, players assume control of a racer, who is trying to work their way to become successful in multiple disciplines. It features a persistent open world environment for racing and free-roaming across a scaled-down recreation of the contiguous United States. 
+                                        Similar to its predecessor, The Crew 2 is a racing game. In the game, players assume control of a racer, who is trying to work their way to become successful in multiple disciplines. It features a persistent open world environment for racing and free-roaming across a scaled-down recreation of the contiguous United States.
                                     </p>
-    
+
                                 </div>
-    
+
                             </div>
                         </div>
                     </div>
-    
-    
-    
+
+
+
                     <div class="container lib">
                         <div class="row">
                             <div id="Field" class="preview">
-    
+
                                 <div class="col-5 box-1">
                                     <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
-                                        <img class="view" src="https://www.whatsupgamer.com/wp-content/uploads/2018/08/Battlefield-V.jpg" alt="">
+                                        <img alt="Shooter game" title="Battlefield" class="view" src="https://www.whatsupgamer.com/wp-content/uploads/2018/08/Battlefield-V.jpg" alt="">
                                         <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                             <source src="assets/videos/V.mp4" type="video/mp4" >
                                             Your browser does not support HTML5 video.
                                         </video>
-                                    </div>  
+                                    </div>
                                 </div>
-    
-    
+
+
                                 <div class="col-7 box-2">
                                     <h2>Battlefield V<a href="" data-toggle="modal" data-target="#modalLoginForm"><button type="button" class="btn btn-danger">Play Game</button></a></h2>
                                     <a onclick="load('Field')">
-                                        <img class="cross" height="50" width="50" src="http://getdrawings.com/free-icon/exit-button-icon-65.png">
+                                        <img alt="Icon x" title="Afsluiten" class="cross" height="50" width="50" src="http://getdrawings.com/free-icon/exit-button-icon-65.png">
                                     </a>
 
                                     <div class="btn-group col align-self-end" role="group" aria-label="tags">
@@ -373,28 +377,28 @@
                                     <p>
                                         Battlefield V is a first-person shooter video game developed by EA DICE and published by Electronic Arts. Battlefield V is the sixteenth installment in the Battlefield series. The game is based on World War II and is a thematic continuation of its World War I based precursor Battlefield 1.
                                     </p>
-    
+
                                 </div>
-    
+
                             </div>
                         </div>
                     </div>
-                
+
                     <!-- LIST -->
                     <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card h-100 bg-dark" >
-    
+
                         <a onclick="load('Rust')">
-                            <img class="card-img-top" src="assets/images/rust.jpg" alt="">
+                            <img alt="Shooter game" title="Rust" class="card-img-top" src="assets/images/rust.jpg" alt="">
                             <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                                 <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                     <source src="assets/videos/rust.mp4" type="video/mp4" >
                                     Your browser does not support HTML5 video.
                                 </video>
                             </div>
-                            <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                            <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                         </a>
-    
+
                         <div class="card-body">
                         <h4 class="card-title">
                             <a onclick="load('Rust')" class="text-white">Rust</a>
@@ -402,22 +406,22 @@
                         </div>
                     </div>
                     </div>
-    
+
                     <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card h-100 bg-dark" >
-    
+
                         <a onclick="load('Mortal')">
-                            <img class="card-img-top" src="https://techraptor.net/wp-content/uploads/2019/02/mortal-kombat-11-boxart-logo-902x507.jpg" alt="">
+                            <img alt="Fight Game" title="Mortal Kombat"class="card-img-top" src="https://techraptor.net/wp-content/uploads/2019/02/mortal-kombat-11-boxart-logo-902x507.jpg" alt="">
                             <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                                 <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                     <source src="assets/videos/mortal.mp4" type="video/mp4" >
                                     Your browser does not support HTML5 video.
                                 </video>
                             </div>
-                            <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                            <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                         </a>
-    
-    
+
+
                         <div class="card-body text-white">
                         <h4 class="card-title">
                             <a onclick="load('Mortal')" class="text-white">Mortal Kombat 11</a>
@@ -425,18 +429,18 @@
                         </div>
                     </div>
                     </div>
-    
+
                     <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card h-100 bg-dark">
                         <a onclick="load('Crew')">
-                            <img class="card-img-top" src="https://i.ytimg.com/vi/H5I05WKeaKA/maxresdefault.jpg" alt="">
+                            <img alt="Race Game" title="Crew 2" class="card-img-top" src="https://i.ytimg.com/vi/H5I05WKeaKA/maxresdefault.jpg" alt="">
                             <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                                 <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                     <source src="assets/videos/crew.mp4" type="video/mp4" >
                                     Your browser does not support HTML5 video.
                                 </video>
                             </div>
-                            <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                            <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                         </a>
                         <div class="card-body">
                         <h4 class="card-title">
@@ -445,18 +449,18 @@
                         </div>
                     </div>
                     </div>
-    
+
                     <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card h-100 bg-dark">
                         <a onclick="load('Field')">
-                            <img class="card-img-top" src="https://www.whatsupgamer.com/wp-content/uploads/2018/08/Battlefield-V.jpg" alt="">
+                            <img alt="Shooter Game" title="Battlefield" class="card-img-top" src="https://www.whatsupgamer.com/wp-content/uploads/2018/08/Battlefield-V.jpg" alt="">
                             <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                                 <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                     <source src="assets/videos/V.mp4" type="video/mp4" >
                                     Your browser does not support HTML5 video.
                                 </video>
                             </div>
-                            <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                            <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                         </a>
                         <div class="card-body">
                         <h4 class="card-title">
@@ -464,33 +468,33 @@
                         </h4>
                         </div>
                     </div>
-    
+
                 </div>
                 </div>
-    
+
                     <!-- FPS -->
-        
+
                 <div class="mx-auto" id="shooter">
                     <h1>Shooter</h1>
                 </div>
-    
+
                 <div class="row">
-                
+
                     <!-- LIST -->
                     <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card h-100 bg-dark" >
-    
+
                         <a onclick="load('Far')">
-                            <img class="card-img-top" src="https://i.ytimg.com/vi/CBXvvwUIzEc/maxresdefault.jpg" alt="">
+                            <img alt="Shooter Game" title="FarCry" class="card-img-top" src="https://i.ytimg.com/vi/CBXvvwUIzEc/maxresdefault.jpg" alt="">
                             <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                                 <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                     <source src="assets/videos/far.mp4" type="video/mp4" >
                                     Your browser does not support HTML5 video.
                                 </video>
                             </div>
-                            <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                            <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                         </a>
-    
+
                         <div class="card-body">
                         <h4 class="card-title">
                             <a onclick="load('Far')" class="text-white">Far Cry: New Dawn</a>
@@ -498,18 +502,18 @@
                         </div>
                     </div>
                     </div>
-    
+
                     <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card h-100 bg-dark">
                         <a onclick="load('Field-2')">
-                            <img class="card-img-top" src="https://www.whatsupgamer.com/wp-content/uploads/2018/08/Battlefield-V.jpg" alt="">
+                            <img alt="Shooter Game" title="Battlefield5" class="card-img-top" src="https://www.whatsupgamer.com/wp-content/uploads/2018/08/Battlefield-V.jpg" alt="">
                             <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                                 <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                     <source src="assets/videos/V.mp4" type="video/mp4" >
                                     Your browser does not support HTML5 video.
                                 </video>
                             </div>
-                            <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                            <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                         </a>
                         <div class="card-body">
                         <h4 class="card-title">
@@ -518,18 +522,18 @@
                         </div>
                     </div>
                     </div>
-    
+
                     <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card h-100 bg-dark">
                         <a onclick="load('Bo')">
-                            <img class="card-img-top" src="assets/images/cod4.jpg" alt="">
+                            <img alt="Shooter Game" title="Call Of Duty 4" class="card-img-top" src="assets/images/cod4.jpg" alt="">
                             <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                                 <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                     <source src="assets/videos/bo.mp4" type="video/mp4" >
                                     Your browser does not support HTML5 video.
                                 </video>
                             </div>
-                            <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                            <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                         </a>
                         <div class="card-body">
                         <h4 class="card-title">
@@ -538,18 +542,18 @@
                         </div>
                     </div>
                     </div>
-    
+
                     <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card h-100 bg-dark">
                         <a onclick="load('Border')">
-                            <img class="card-img-top" src="https://cdn.mos.cms.futurecdn.net/cvSMJPjdCvYTQ5RbBo7HcG.jpg" alt="">
+                            <img alt="Shooter Game" title="Borderlands" class="card-img-top" src="https://cdn.mos.cms.futurecdn.net/cvSMJPjdCvYTQ5RbBo7HcG.jpg" alt="">
                             <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                                 <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                     <source src="assets/videos/border.mp4" type="video/mp4" >
                                     Your browser does not support HTML5 video.
                                 </video>
                             </div>
-                            <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                            <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                         </a>
                         <div class="card-body">
                         <h4 class="card-title">
@@ -558,28 +562,28 @@
                         </div>
                     </div>
                     </div>
-    
+
                 </div>
-    
+
                 <!-- RPG -->
                 <div class="mx-auto" id="rpg">
                     <h1>Role Playing Games</h1>
                 </div>
-    
+
                 <div class="row">
-    
+
                 <!-- LIST -->
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 bg-dark" >
                     <a onclick="load('Red')">
-                        <img class="card-img-top" src="https://s3.dexerto.com/thumbnails/_thumbnailLarge/red-dead-redemption-2-pc-release-date-info-details-console-leaks-announcement-version-download.jpg" alt="">
+                        <img alt="RPG Game" title="Red Dead Redemption 2"class="card-img-top" src="https://s3.dexerto.com/thumbnails/_thumbnailLarge/red-dead-redemption-2-pc-release-date-info-details-console-leaks-announcement-version-download.jpg" alt="">
                         <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                             <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                 <source src="assets/videos/red.mp4" type="video/mp4" >
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>
-                        <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                        <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                     </a>
                     <div class="card-body">
                     <h4 class="card-title">
@@ -588,18 +592,18 @@
                     </div>
                 </div>
                 </div>
-    
+
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 bg-dark" >
                     <a onclick="load('Way')">
-                        <img class="card-img-top" src="https://www.trueachievements.com/customimages/079669.jpg" alt="">
+                        <img alt="RPG Game" title="A Way Out" class="card-img-top" src="https://www.trueachievements.com/customimages/079669.jpg" alt="">
                         <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                             <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                 <source src="assets/videos/way.mp4" type="video/mp4" >
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>
-                        <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                        <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                     </a>
                     <div class="card-body">
                     <h4 class="card-title">
@@ -608,18 +612,18 @@
                     </div>
                 </div>
                 </div>
-    
+
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 bg-dark">
                     <a onclick="load('Witch')">
-                        <img class="card-img-top" src="https://images.gog.com/60c724a052275a049d857d53957dc38e9347742f52372bb956d992b43efa8fb5_product_card_v2_mobile_slider_639.jpg" alt="">
+                        <img alt="RPG game" title="Witch" class="card-img-top" src="https://images.gog.com/60c724a052275a049d857d53957dc38e9347742f52372bb956d992b43efa8fb5_product_card_v2_mobile_slider_639.jpg" alt="">
                         <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                             <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                 <source src="assets/videos/witch.mp4" type="video/mp4" >
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>
-                        <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                        <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                     </a>
                     <div class="card-body">
                     <h4 class="card-title">
@@ -628,18 +632,18 @@
                     </div>
                 </div>
                 </div>
-    
+
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 bg-dark">
                     <a onclick="load('God')">
-                        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIsqBE19JpBH9phlUgAkiWxlaNFHX8HDIZG7FYhS37OavWvG8n" alt="">
+                        <img alt="RPG Game" title="Gof Of War" class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIsqBE19JpBH9phlUgAkiWxlaNFHX8HDIZG7FYhS37OavWvG8n" alt="">
                         <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                             <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                 <source src="assets/videos/god.mp4" type="video/mp4" >
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>
-                        <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                        <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                     </a>
                     <div class="card-body">
                     <h4 class="card-title">
@@ -648,34 +652,34 @@
                     </div>
                 </div>
                 </div>
-    
+
                 </div>
-    
+
                 <!-- ACTION -->
-    
+
                 <div class="mx-auto" id="action">
                     <h1>Action</h1>
                 </div>
-    
+
                 <div class="row">
                 <!-- PREVIEW -->
-    
+
                 <!-- LIST -->
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 bg-dark" >
-    
+
                     <a onclick="load('Mortal-2')">
-                        <img class="card-img-top" src="https://techraptor.net/wp-content/uploads/2019/02/mortal-kombat-11-boxart-logo-902x507.jpg" alt="">
+                        <img alt="Action Game" title="Mortal Kombat"class="card-img-top" src="https://techraptor.net/wp-content/uploads/2019/02/mortal-kombat-11-boxart-logo-902x507.jpg" alt="">
                         <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                             <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                 <source src="assets/videos/mortal.mp4" type="video/mp4" >
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>
-                        <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                        <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                     </a>
-    
-    
+
+
                     <div class="card-body text-white">
                     <h4 class="card-title">
                         <a onclick="load('Mortal-2')" class="text-white">Mortal Kombat 11</a>
@@ -683,18 +687,18 @@
                     </div>
                 </div>
                 </div>
-            
+
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 bg-dark">
                     <a onclick="load('Bunny')">
-                        <img class="card-img-top" src="assets/images/bunny.jpg" alt="">
+                        <img alt="Action Game" title="Hardcore Bunny Jumper"class="card-img-top" src="assets/images/bunny.jpg" alt="">
                         <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                             <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                 <source src="assets/videos/bunny.mp4" type="video/mp4" >
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>
-                        <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                        <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                     </a>
                     <div class="card-body">
                     <h4 class="card-title">
@@ -703,18 +707,18 @@
                     </div>
                 </div>
                 </div>
-    
+
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 bg-dark">
                     <a onclick="load('Bound')">
-                        <img class="card-img-top" src="https://i.ytimg.com/vi/FHfxQElzMY0/maxresdefault.jpg" alt="">
+                        <img alt="Action Game" title="Heartbound"class="card-img-top" src="https://i.ytimg.com/vi/FHfxQElzMY0/maxresdefault.jpg" alt="">
                         <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                             <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                 <source src="assets/videos/bound.mp4" type="video/mp4" >
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>
-                        <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                        <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                     </a>
                     <div class="card-body">
                     <h4 class="card-title">
@@ -723,18 +727,18 @@
                     </div>
                 </div>
                 </div>
-    
+
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 bg-dark">
                     <a onclick="load('GOW')">
-                        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIsqBE19JpBH9phlUgAkiWxlaNFHX8HDIZG7FYhS37OavWvG8n" alt="">
+                        <img alt="Action Game" title="God Of War"class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIsqBE19JpBH9phlUgAkiWxlaNFHX8HDIZG7FYhS37OavWvG8n" alt="">
                         <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                             <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                 <source src="assets/videos/god.mp4" type="video/mp4" >
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>
-                        <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                        <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                     </a>
                     <div class="card-body">
                     <h4 class="card-title">
@@ -743,7 +747,7 @@
                     </div>
                 </div>
                 </div>
-                
+
                 </div>
                 <!-- Racing -->
                 <div class="mx-auto" id="racing">
@@ -751,19 +755,19 @@
                 </div>
                 <div class="row">
                 <!-- Preview -->
-    
+
                 <!-- List -->
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 bg-dark">
                     <a onclick="load('GOW')">
-                        <img class="card-img-top" src="https://img.fireden.net/v/image/1460/21/1460214710974.jpg" alt="">
+                        <img alt="Race Game" title="Wreckfest" class="card-img-top" src="https://img.fireden.net/v/image/1460/21/1460214710974.jpg" alt="">
                         <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                             <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                 <source src="assets/videos/wreck.mp4" type="video/mp4" >
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>
-                        <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                        <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                     </a>
                     <div class="card-body">
                     <h4 class="card-title">
@@ -772,18 +776,18 @@
                     </div>
                 </div>
                 </div>
-    
+
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 bg-dark">
                     <a onclick="load('GOW')">
-                        <img class="card-img-top" src="https://i.imgur.com/sKURCwT.jpg" alt="">
+                        <img alt="Race Game" title="Forza Horizon 4" alt="Race Game" title="Forza Horizon 4" class="card-img-top" src="https://i.imgur.com/sKURCwT.jpg" alt="">
                         <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                             <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                 <source src="assets/videos/forza.mp4" type="video/mp4" >
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>
-                        <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                        <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                     </a>
                     <div class="card-body">
                     <h4 class="card-title">
@@ -792,18 +796,18 @@
                     </div>
                 </div>
                 </div>
-    
+
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 bg-dark">
                     <a onclick="load('GOW')">
-                        <img class="card-img-top" src="assets/images/crash.jpg" alt="">
+                        <img alt="Race Game" title="Crash Team Racing" class="card-img-top" src="assets/images/crash.jpg" alt="">
                         <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                             <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                 <source src="assets/videos/Crash.mp4" type="video/mp4" >
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>
-                        <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+                        <img alt="gameplay" title="Play" class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
                     </a>
                     <div class="card-body">
                     <h4 class="card-title">
@@ -812,11 +816,11 @@
                     </div>
                 </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 bg-dark">
                     <a onclick="load('GOW')">
-                        <img class="card-img-top" src="https://i.ytimg.com/vi/H5I05WKeaKA/maxresdefault.jpg" alt="">
+                        <img alt="Race Game" title="The Crew 2" class="card-img-top" src="https://i.ytimg.com/vi/H5I05WKeaKA/maxresdefault.jpg" alt="">
                         <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
                             <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
                                 <source src="assets/videos/crew.mp4" type="video/mp4" >
@@ -832,13 +836,13 @@
                     </div>
                 </div>
                 </div>
-    
+
                 </div>
-            
+
                 <div class="mx-auto">
                     <p class="float-right pad"><a href="#">Back to top</a></p>
                 </div>
-            </div>  
+            </div>
         </div>
 
         <!-- CLIPART -->
@@ -848,7 +852,7 @@
             </div>
         </div>
 
-        <!-- NEWS -->
+
         <div class="container-content-2 News" id="News">
             <div class="wrpper">
             <div class="container">
@@ -859,7 +863,7 @@
                 <hr class="featurette-divider">
 
                 <div class="row featurette">
-                <div class="col-md-7 order-md-2">
+                <div class="col-md-6 order-md-2">
                     <h2  id="Outer" class="featurette-heading">Outer Wilds will be epic</h2>
                     <h4 class="text-muted"></h4>
                     <p class="lead">
@@ -869,11 +873,11 @@
                             <br><br><br><br>
                     </p>
                     <div class="text-center">
-                        <a href="" data-toggle="modal" data-target="#modalLoginForm"><button type="button" class="font-italic btn btn-dark btn-lg">Read more</button></a>
+                        <button type="button" class="font-italic btn btn-dark btn-lg">Read more</button>
                     </div>
                 </div>
-                <div class="col-md-5 order-md-1">
-                    <img src="https://cdn.mos.cms.futurecdn.net/CJwKVL5PtAEPYrCP9ix2mN-650-80.jpg" width="100%" height="100%" class="rounded" alt="...">
+                <div class="col-md-6 order-md-1">
+                    <img alt="Game" title="Outer Wilds will be epic"src="https://cdn.mos.cms.futurecdn.net/CJwKVL5PtAEPYrCP9ix2mN-650-80.jpg" width="100%" height="100%" class="rounded" alt="...">
                 </div>
                 </div>
 
@@ -883,35 +887,33 @@
                     <div class="col-md-7">
                         <h2 class="featurette-heading">Rage 2</h2>
                         <h4 class="text-muted">15 may 2019</h4>
-                        
                         <p class="lead">Dive headfirst into<span style="color:#c91b1c;font-weight:bold"> a dystopian world devoid of society</span>, law, and order. RAGE 2 brings together two studio powerhouses–Avalanche Studios, masters of open world insanity, and id Software, <span style="color:#c91b1c;font-weight:bold">creators of the first-person shooter</span> –to deliver a carnival of carnage where you can <span style="color:#c91b1c;font-weight:bold">go anywhere, shoot anything, and explode everything.</span>
                                 <br><br>
                                 An asteroid has annihilated 80% of the earth’s population, and humanity’s numbers are dwindling. <span style="color:#c91b1c;font-weight:bold">Ruthless and bloodthirsty gangs</span> roam the open roads and the tyrannical Authority seek to rule with an iron fist. As Walker, the last Ranger of the wasteland and a threat to their power...</p>
-                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                         <div class="text-center">
-                            <a href="" data-toggle="modal" data-target="#modalLoginForm"><button type="button" class="font-italic btn btn-dark btn-lg">Read more</button></a>
+                            <button type="button" class="font-italic btn btn-dark btn-lg">Read more</button>
                         </div>
                     </div>
                     <div class="col-md-5">
-                        <img src="https://images.ctfassets.net/rporu91m20dc/1DxaiCJzlC08KI6ky6YYGK/66d6b692f8ff762f2891c9d5f6bfa1cd/rage2-box.jpg" width="100%" height="100%" class="rounded" alt="...">
+                        <img alt="Game" title="Rage 2" src="https://images.ctfassets.net/rporu91m20dc/1DxaiCJzlC08KI6ky6YYGK/66d6b692f8ff762f2891c9d5f6bfa1cd/rage2-box.jpg" width="100%" height="100%" class="rounded" alt="...">
                     </div>
                 </div>
 
                 <hr class="featurette-divider">
 
                 <div class="row featurette">
-                <div class="col-md-7 order-md-2">
+                <div class="col-md-6 order-md-2">
                     <h2 class="featurette-heading">Team Sonic Racing</h2>
                     <h4 class="text-muted">21 may 2019</h4>
                     <p class="lead">Sonic & All-Stars Racing Transformed, like Sonic & Sega All-Stars Racing before it, <span style="color:#c91b1c;font-weight:bold">contained a number of characters</span> from outside the Sonic universe. Wreck-It Ralph, Football Manager Man, and others all <span style="color:#c91b1c;font-weight:bold">battled for racing supremacy</span> with the titular blue hedgehog and his friends, but the next game in the series, Team Sonic Racing, eschews these supplementary characters...
                         <br><br><br><br><br>
                     </p>
                     <div class="text-center">
-                        <a href="" data-toggle="modal" data-target="#modalLoginForm"><button type="button" class="font-italic btn btn-dark btn-lg">Read more</button></a>
+                        <button type="button" class="font-italic btn btn-dark btn-lg">Read more</button>
                     </div>
                 </div>
-                <div class="col-md-5 order-md-1">
-                    <img src="assets/images/sonic.jpg" width="100%" height="100%" class="rounded" alt="...">
+                <div class="col-md-6 order-md-1">
+                    <img alt="Race Game" title="Sonic" src="assets/images/sonic.jpg" width="100%" height="100%" class="rounded" alt="...">
                 </div>
                 </div>
 
@@ -924,13 +926,13 @@
                     <p class="lead">Emerge from <span style="color:#c91b1c;font-weight:bold">the cosmic dark age of a fallen galactic empire</span> to build a new future for your people. Age of Wonders: <span style="color:#c91b1c;font-weight:bold">Planetfall is the new strategy game</span> from Triumph Studios, creators of the critically acclaimed Age of Wonders series, bringing all the <span style="color:#c91b1c;font-weight:bold">exciting tactical</span> turn-based combat and in-depth empire building of its predecessors to space in an all-new, sci-fi setting.
                             <br><br>
                             Build your empire with one of <span style="color:#c91b1c;font-weight:bold">six unique factions</span>, ranging from the militant Vanguard to the dinosaur-riding Amazons and the cyborg-zombies of the Assembly. Progress through each faction’s missions<span style="color:#c91b1c;font-weight:bold"> using your wits, military strength and diplomacy, exploring planetary ruins</span>...</p>
-                            <br><br><br><br><br><br><br><br>
+                            <br><br>
                             <div class="text-center">
-                                <a href="" data-toggle="modal" data-target="#modalLoginForm"><button type="button" class="font-italic btn btn-dark btn-lg">Read more</button></a>
+                                <button type="button" class="font-italic btn btn-dark btn-lg">Read more</button>
                             </div>
                         </div>
                 <div class="col-md-5">
-                        <img src="https://pbs.twimg.com/profile_images/1098613975623843841/HaEh0VJr.png" width="100%" height="100%" class="rounded" alt="...">
+                        <img alt="Game" title="Age of Wonders" src="https://pbs.twimg.com/profile_images/1098613975623843841/HaEh0VJr.png" width="100%" height="100%" class="rounded" alt="...">
                 </div>
                 </div>
 
@@ -953,7 +955,7 @@
                     </div>
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <img src="assets/images/jedi-fallen.jpg" width="100%" height="100%" class="rounded" alt="...">
+                    <img alt="Game" title="Jedi Fallen" src="assets/images/jedi-fallen.jpg" width="100%" height="100%" class="rounded" alt="...">
                 </div>
                 </div>
 
@@ -974,7 +976,7 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                        <img src="https://i.ytimg.com/vi/njl7NVpByvE/maxresdefault.jpg" width="100%" height="100%" class="rounded" alt="...">
+                        <img alt="Game" title="Marvel" src="https://i.ytimg.com/vi/njl7NVpByvE/maxresdefault.jpg" width="100%" height="100%" class="rounded" alt="...">
                 </div>
                 </div>
 
@@ -988,7 +990,7 @@
 
         <!-- CLIPART -->
         <div class="subcontainer-2">
-            <div class="driehoek-2">
+            <div class="driehoek-3">
 
             </div>
         </div>
@@ -1001,7 +1003,7 @@
                     <div class="container">
 
                         <div class="row">
-                
+
                         <!-- Newbie Tier -->
                         <div class="col-lg-4">
                             <div class="card mb-5 mb-lg-0">
@@ -1014,14 +1016,14 @@
                                     <li><span class="fa-li"><i class="fas fa-check"></i></span>Single Player Mode Only</li>
                                     <li><span class="fa-li"><i class="fas fa-check"></i></span>25GB Storage</li>
                                     <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Game.play Sticker</li>
-                                    
+
                                     </ul>
                                     <br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br>
                                     <a href="" class="btn btn-block btn-primary text-uppercase" data-toggle="modal" data-target="#modalLoginForm">BUY</a>
                             </div>
                             </div>
                         </div>
-                
+
                         <!-- Standard Tier -->
                         <div class="col-lg-4">
                             <div class="card mb-5 mb-lg-0">
@@ -1034,14 +1036,14 @@
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Single and Multi Player Mode</li>
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Game.play Button</li>
-                                
+
                                 </ul>
                                 <br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br>
                                 <a href="" class="btn btn-block btn-primary text-uppercase" data-toggle="modal" data-target="#modalLoginForm">BUY</a>
                             </div>
                             </div>
                         </div>
-                
+
                         <!-- Advanced Tier -->
                         <div class="col-lg-4">
                             <div class="card">
@@ -1054,7 +1056,7 @@
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Single and Multi Player Mode</li>
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Game.Play T-shirt</li>
-                                
+
                                 </ul>
                                 <br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br>
                                 <a href="" class="btn btn-block btn-primary text-uppercase" data-toggle="modal" data-target="#modalLoginForm">BUY</a>
@@ -1077,7 +1079,9 @@
 
 
         <!-- ABOUT US -->
-            <div class="container-content-2">
+        <div class="container-content-2" id="About">
+
+            <div class="screen">
                 <div class="container-fluid">
                 <div class="row no-gutter" id="Register">
                     <img class="bg-image" src="assets/images/gamewall.png">
@@ -1128,7 +1132,6 @@
                 </div>
             </div>
 
-
             <div class="subcontainer-2">
                 <div class="driehoek-2">
     
@@ -1141,18 +1144,22 @@
                 <p class="float-right"><a href="#">Back to top</a></p>
                 <p>&copy; 2019 Game.play Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>
-        
 
-            </div>
-            
-    
+        </div>
+
+
+
+
+        </div>
+
+
     </main>
 
     <script src="assets/scripts/hidenav.js" type="text/javascript"></script>
     <script src="assets/scripts/loadmore.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
