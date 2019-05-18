@@ -460,6 +460,10 @@ form.pad {
     color: white;
 }
 
+.login-btn {
+    margin-bottom: 1rem;
+}
+
 .form-inline .form-control {
     margin-left: 10px;
 }
@@ -674,7 +678,7 @@ h2 {
         display: none;
     }
 
-    .login-btn {
+    .login-btn-navbar {
         justify-items: center;
         grid-area: btn-1;
         margin-bottom: 0;
