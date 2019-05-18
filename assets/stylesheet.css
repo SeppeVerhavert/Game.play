@@ -460,10 +460,6 @@ form.pad {
     color: white;
 }
 
-.login-btn {
-    margin-bottom: 15px;
-}
-
 .form-inline .form-control {
     margin-left: 10px;
 }
@@ -513,7 +509,8 @@ h2 {
     background-attachment: absolute;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
+    height: 100vh;
 }
 
 .btn-outline-success:hover, .btn-outline-danger:hover {
@@ -615,4 +612,76 @@ h2 {
 
   .red:hover {
     color: #dd2727;
+  }
+
+
+  @media only screen and (max-width: 1210px) {
+    .hideNav {
+        top: -200px;    
+    }
+
+    .navbar {
+        list-style: none;
+        color: white;
+        padding: 0;
+        justify-content: space-evenly;
+        justify-items: stretch;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-evenly;
+        justify-items: stretch;
+    }
+
+    section.pricing {
+        height: auto;
+    }
+
+    .col-12 {
+        margin: 20vh 2%;
+        max-width: 96%;
+    }
+
+    .preview {
+        display: none;
+    }
+
+    .logo img{
+        justify-items: center;
+        grid-area: logo;
+        padding-top: 5px;
+    }
+
+    .screen {
+        height: auto;
+    }
+
+    .icon {
+        grid-area: icons;
+        width: 100%
+    }
+
+    .category {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .search-btn {
+        display: none;
+    }
+
+    .login-btn {
+        justify-items: center;
+        grid-area: btn-1;
+        margin-bottom: 0;
+    }
+
+    .sign-btn {
+        justify-items: center;
+        grid-area: btn-2;
+    }
   }
