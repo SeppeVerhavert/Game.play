@@ -16,7 +16,6 @@ body {
     background-size: cover;
     overflow-x: hidden;
     width: 100vw;
-    overflow-y: scroll;
 }
 
 .container-content {
