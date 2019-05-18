@@ -168,7 +168,6 @@ video {
     display: none;
     position: relative;
     width: 100%;
-    height: auto;
 }
 
 .play {
@@ -222,6 +221,7 @@ video {
     padding: 0;
     height: 0;
     overflow-x: hidden;
+    overflow-y: hidden; 
 
     transition: height 500ms ease-in-out;
 
