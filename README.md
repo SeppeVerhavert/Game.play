@@ -89,27 +89,25 @@ Also our lay-out, as you can see, isn't a mess. We really thought a lot about th
     }
 
 ---------- HTML ----------
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="card h-100 bg-dark" >
-        
-                        <a onclick="load('Rust')">
-                            <img class="card-img-top" src="https://www.kitguru.net/wp-content/uploads/2018/02/maxresdefault-1.jpg" alt="">
-                            <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
-                                <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
-                                    <source src="assets/videos/rust.mp4" type="video/mp4" >
-                                    Your browser does not support HTML5 video.
-                                </video>
-                            </div>
-                            <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
-                        </a>
-        
-                        <div class="card-body">
-                        <h4 class="card-title">
-                            <a onclick="load('Rust')" class="text-white">Rust</a>
-                        </h4>
-                        </div>
-                    </div>
-                    </div>
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+     <div class="card h-100 bg-dark" >
+          <a onclick="load('Rust')">
+               <img class="card-img-top" src="https://www.kitguru.net/wp-content/uploads/2018/02/maxresdefault-1.jpg" alt="">
+               <div class="thumb" onclick="clicksound.playclip()" onMouseover="mouseoversound.playclip()">
+                    <video muted id="video1" onmouseover="this.play()" onmouseout="this.pause()" loop>
+                         <source src="assets/videos/rust.mp4" type="video/mp4" >
+                          Your browser does not support HTML5 video.
+                    </video>
+               </div>
+               <img class="play" src="https://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/imageedit_1_8651219148.png">
+          </a>
+          <div class="card-body">
+               <h4 class="card-title">
+                    <a onclick="load('Rust')" class="text-white">Rust</a>
+               </h4>
+          </div>
+     </div>
+</div>
 ```
 ### So why that code? 
 
