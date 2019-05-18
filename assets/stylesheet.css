@@ -623,7 +623,7 @@ h2 {
     .navbar {
         list-style: none;
         color: white;
-        padding: 0;
+        padding: 10px 0;
         justify-content: space-evenly;
         justify-items: stretch;
     }
