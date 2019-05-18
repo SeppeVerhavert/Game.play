@@ -60,7 +60,7 @@ Also our lay-out, as you can see, isn't a mess. We really thought a lot about th
 
 - Parallax
 - Slider
-- Forum
+- Form
 - Nice Footer
 - Sticky navigations and header
 - Video's
