@@ -6,6 +6,7 @@ html {
 
 body {
     margin: 0;
+    padding-right: 0 !important
 }
 
 .container-figure {
@@ -320,6 +321,7 @@ footer.container p {
 .fixed-top {
     top: 0;
     transition: top 0.3s;
+    padding-right: 0 !important
 }
 
 .hideNav {
@@ -420,7 +422,7 @@ form.pad {
 }
 
 .modal {
-    position: fixed;
+    position: fixed;  
 }
 
 .py-5 {
