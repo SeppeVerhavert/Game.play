@@ -397,6 +397,16 @@ section.pricing {
 h1.title {
     font-size: 80px;
     font-weight: 600;
+    padding-bottom: 0;
+}
+
+section.py-5 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.pricing hr {
+    margin: 0.5rem 0;
 }
 
 @media (min-width: 992px) {
