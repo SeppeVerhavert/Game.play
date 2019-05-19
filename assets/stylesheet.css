@@ -639,6 +639,10 @@ h2 {
         justify-items: stretch;
     }
 
+    .col-lg-4 .card .card-body {
+        height: auto;
+    }
+
     section.pricing {
         height: auto;
     }
