@@ -143,6 +143,7 @@ main {
 h1 {
     padding-bottom: 15px;
     font-weight: lighter;
+    margin-left: 1rem;
 }
 
 hr {
